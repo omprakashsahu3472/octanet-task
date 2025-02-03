@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #1e0330;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(to bottom, #3e0152, #1e0330);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo span {
+    color: #ff7d9b;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links .btn-register {
+    background-color: #ff7d9b;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #ff7d9b;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #ff7d9b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Deposit Section */
+.deposit-section {
+    background-color: #2b1247;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.deposit-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.deposit-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.deposit-box input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+}
+
+.deposit-box .btn-copy {
+    padding: 10px 20px;
+    background-color: #ff7d9b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.warning {
+    color: #ff7d9b;
+    font-weight: bold;
+}
+
+.note {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
